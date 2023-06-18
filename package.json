@@ -1,0 +1,34 @@
+{
+    "name": "aggregate-field-data",
+    "version": "1.0.0",
+    "description": "Calculate aggregate data of a specific field from an array of objects",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest",
+        "test:coverage": "jest --coverage",
+        "test:coveralls": "jest --coverage --coverageReporters=text-lcov | coveralls"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/muceres/aggregate-field-data.git"
+    },
+    "author": {
+        "name": "muceres"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/muceres/aggregate-field-data/issues"
+    },
+    "homepage": "https://github.com/muceres/aggregate-field-data#readme",
+    "engines": {
+        "node": ">=10.16.3"
+    },
+    "keywords": [],
+    "devDependencies": {
+        "coveralls": "3.1.1",
+        "jest": "28.1.3"
+    },
+    "dependencies": {
+        "fastest-validator": "^1.17.0"
+    }
+}
